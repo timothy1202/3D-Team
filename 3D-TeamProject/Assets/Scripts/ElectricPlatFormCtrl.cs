@@ -8,12 +8,10 @@ public class ElectricPlatFormCtrl : HitPlatForm
 
     private IEnumerator DelayedAction()
     {
-        while(Astronaut.PlayerHp<=0)
-        {
         yield return new WaitForSeconds(5.0f);
         Astronaut.PlayerHp = Astronaut.PlayerHp - HitDamage;
-        Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
-        }
+        //Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
+     
     }
 
     // Start is called before the first frame update
@@ -34,7 +32,7 @@ public class ElectricPlatFormCtrl : HitPlatForm
         {
              StartCoroutine(DelayedAction());
             //Astronaut.PlayerHp = Astronaut.PlayerHp - HitDamage;
-            //Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
+            Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
             if (Astronaut.PlayerHp <= 0)
             {
             Astronaut.PlayerDie();
