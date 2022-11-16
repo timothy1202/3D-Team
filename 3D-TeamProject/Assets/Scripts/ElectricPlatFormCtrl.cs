@@ -13,17 +13,19 @@ public class ElectricPlatFormCtrl : HitPlatForm
     // Update is called once per frame
     void Update()
     {
-        void OnTriggerStay(Collider collision)
+        
+    }
+    private void OnCollisionStay(Collider coll)
+    {
+        if (coll.gameObject.tag == "ElectricPlatForm")
         {
-            //if (collision.gameObject.name == "ElectricPlatForm")
-            //{
-            //    PlayerCtrl.PlayerHp -= 20;
-            //}
-
-            //if (PlayerCtrl.PlayerHp <= 0)
-            //{
-            //    PlayerDie();
-            //}
+            Astronaut.PlayerHp -= HitDamage;
+            Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
+            if (Astronaut.PlayerHp <= 0)
+            {
+                Astronaut.PlayerDie();
+            }
         }
     }
 }
+

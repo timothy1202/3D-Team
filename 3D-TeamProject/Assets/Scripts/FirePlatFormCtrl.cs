@@ -5,10 +5,7 @@ using UnityEngine;
 public class FirePlatFormCtrl : HitPlatForm
 {
     public float HitDist = 20.0f;
-    //private Transform FirePlatFormTr;
-    //private Transform playerTr;
-    //float dist = Vector2.Distance(playerTr.position, FirePlatFormTr.position);
-    // Start is called before the first frame update
+    
     void Start()
     {
         
@@ -17,17 +14,19 @@ public class FirePlatFormCtrl : HitPlatForm
     // Update is called once per frame
     void Update()
     {
-            void OnTriggerStay(Collider collision)
-            {
-                //if (collision.gameObject.name == "FirePlatForm")
-                //{
-                //    PlayerCtrl.PlayerHp -= 20;
-                //}
+          
+    }
 
-                //if (PlayerCtrl.PlayerHp <= 0)
-                //{
-                //    PlayerCtrl.PlayerDie();
-                //}
+    private void OnCollisionstay(Collider coll)
+    {
+        if (coll.gameObject.tag == "FirePlatForm")
+        {
+            Astronaut.PlayerHp -= HitDamage;
+            Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
+            if (Astronaut.PlayerHp <= 0)
+            {
+                Astronaut.PlayerDie();
             }
+        }
     }
 }
