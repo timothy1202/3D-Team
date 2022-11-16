@@ -5,11 +5,11 @@ using UnityEngine;
 public class Astronaut : MonoBehaviour
 {
 	public float speed;
-    static public int PlayerHp = 100;
+    static public int PlayerHp = 500;
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("Hello!!");
     }
 
     void Update()
@@ -47,6 +47,8 @@ public class Astronaut : MonoBehaviour
     {
         Debug.Log("Player Die!!");
     }
+
+   
 }
 
 

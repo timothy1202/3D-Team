@@ -353,6 +353,8 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/Low Poly Flat Sci Fi Assets/Demo/Scripts/DoubleSlidingDoorController.cs"
+"Assets/Low Poly Flat Sci Fi Assets/Demo/Scripts/FlickeringLight.cs"
 "Assets/Scripts/Astronaut.cs"
 "Assets/Scripts/ElectricPlatFormCtrl.cs"
 "Assets/Scripts/FirePlatFormCtrl.cs"

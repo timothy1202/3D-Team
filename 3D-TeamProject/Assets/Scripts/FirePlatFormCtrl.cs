@@ -14,14 +14,14 @@ public class FirePlatFormCtrl : HitPlatForm
     // Update is called once per frame
     void Update()
     {
-          
+        
     }
 
-    private void OnCollisionstay(Collider coll)
+    private void OnCollisionStay(Collision coll)
     {
-        if (coll.gameObject.tag == "FirePlatForm")
+        if (coll.collider.tag == "Player")
         {
-            Astronaut.PlayerHp -= HitDamage;
+            Astronaut.PlayerHp = Astronaut.PlayerHp - HitDamage;
             Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
             if (Astronaut.PlayerHp <= 0)
             {
@@ -29,4 +29,5 @@ public class FirePlatFormCtrl : HitPlatForm
             }
         }
     }
+
 }
