@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 50
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 18
+  controlID: 51
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -373,9 +373,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 7e110000
       m_LastClickedID: 0
-      m_ExpandedIDs: 9cfaffff
+      m_ExpandedIDs: 00f6ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -481,22 +481,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Stylized Astronaut/Character
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Stylized Astronaut/Character
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\userpc\Documents\GitHub\3D-Team\3D-Team\3D-TeamProject
+  m_LastProjectPath: C:\Users\PC\Documents\GitHub\3D-Team\3D-TeamProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 645b0000
-    m_LastClickedID: 23396
-    m_ExpandedIDs: 00000000525b0000625b000000ca9a3b
+    m_SelectedIDs: bc610000
+    m_LastClickedID: 25020
+    m_ExpandedIDs: 000000009c6100009e610000a061000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -524,7 +524,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000525b0000
+    m_ExpandedIDs: 000000009c6100009e610000a0610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -551,7 +551,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 00000000fa5c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -930,9 +930,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.7932377, y: 1.9868996, z: 2.9327939}
+    m_Target: {x: 24.80445, y: -1.243628, z: 22.863836}
     speed: 2
-    m_Value: {x: 1.7932377, y: 1.9868996, z: 2.9327939}
+    m_Value: {x: 24.80445, y: -1.243628, z: 22.863836}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -979,13 +979,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0, y: 0, z: 0, w: 1}
+    m_Target: {x: -0.106602, y: -0.31153923, z: 0.035183515, w: -0.94354683}
     speed: 2
-    m_Value: {x: -0, y: 0, z: -0, w: -1}
+    m_Value: {x: -0.10660525, y: -0.3115487, z: 0.03518459, w: -0.94357556}
   m_Size:
-    m_Target: 2.842137
+    m_Target: 22.84531
     speed: 2
-    m_Value: 2.842137
+    m_Value: 22.84531
   m_Ortho:
     m_Target: 0
     speed: 2

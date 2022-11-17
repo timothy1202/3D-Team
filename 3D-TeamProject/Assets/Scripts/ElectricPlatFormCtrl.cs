@@ -10,7 +10,7 @@ public class ElectricPlatFormCtrl : HitPlatForm
     {
         yield return new WaitForSeconds(5.0f);
         Astronaut.PlayerHp = Astronaut.PlayerHp - HitDamage;
-        //Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
+        Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
      
     }
 
@@ -32,7 +32,7 @@ public class ElectricPlatFormCtrl : HitPlatForm
         {
              StartCoroutine(DelayedAction());
             //Astronaut.PlayerHp = Astronaut.PlayerHp - HitDamage;
-            Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
+            //Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
             if (Astronaut.PlayerHp <= 0)
             {
             Astronaut.PlayerDie();
