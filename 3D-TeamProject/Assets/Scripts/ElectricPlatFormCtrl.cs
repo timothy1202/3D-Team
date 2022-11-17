@@ -5,12 +5,22 @@ using static UnityEngine.Rendering.VirtualTexturing.Debugging;
 
 public class ElectricPlatFormCtrl : HitPlatForm
 {
-
+    bool PlayerOn = false;
     private IEnumerator DelayedAction()
     {
-        yield return new WaitForSeconds(5.0f);
+        Debug.Log("test1");
+        while(PlayerOn == true)
+        {
+        yield return new WaitForSeconds(2.0f);
         Astronaut.PlayerHp = Astronaut.PlayerHp - HitDamage;
         Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
+
+            if (Astronaut.PlayerHp <= 0)
+            {
+                Astronaut.PlayerDie();
+            }
+        }
+
      
     }
 
@@ -26,18 +36,23 @@ public class ElectricPlatFormCtrl : HitPlatForm
         
     }
 
-    private void OnCollisionStay(Collision coll)
+    private void OnCollisionEnter(Collision coll)
     {
-        if (coll.collider.tag == "Player") 
+        
+        if (coll.collider.CompareTag("Player"))
         {
-             StartCoroutine(DelayedAction());
-            //Astronaut.PlayerHp = Astronaut.PlayerHp - HitDamage;
-            //Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
-            if (Astronaut.PlayerHp <= 0)
-            {
-            Astronaut.PlayerDie();
-            }
+            PlayerOn= true;
+            StopCoroutine(DelayedAction());
+            StartCoroutine(DelayedAction());
 
+        }
+    }
+    private void OnCollisionExit(Collision coll)
+    {
+        if (coll.collider.CompareTag("Player"))
+        {
+            PlayerOn = false;
+            StopCoroutine(DelayedAction());
         }
     }
 }
