@@ -8,7 +8,6 @@ public class ElectricPlatFormCtrl : HitPlatForm
     bool PlayerOn = false;
     private IEnumerator DelayedAction()
     {
-        Debug.Log("test1");
         while(PlayerOn == true)
         {
         yield return new WaitForSeconds(2.0f);

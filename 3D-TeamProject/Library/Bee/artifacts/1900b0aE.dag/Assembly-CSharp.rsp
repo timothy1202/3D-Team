@@ -358,6 +358,7 @@
 "Assets/Scripts/Astronaut.cs"
 "Assets/Scripts/ElectricPlatFormCtrl.cs"
 "Assets/Scripts/FirePlatFormCtrl.cs"
+"Assets/Scripts/GeneratorCtrl.cs"
 "Assets/Scripts/HitPlatForm.cs"
 "Assets/Stylized Astronaut/Character/Player.cs"
 "Assets/Stylized Astronaut/Character/ThirdPersonCamera.cs"
