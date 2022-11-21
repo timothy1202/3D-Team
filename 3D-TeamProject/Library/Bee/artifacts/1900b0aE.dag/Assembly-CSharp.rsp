@@ -356,6 +356,7 @@
 "Assets/Low Poly Flat Sci Fi Assets/Demo/Scripts/DoubleSlidingDoorController.cs"
 "Assets/Low Poly Flat Sci Fi Assets/Demo/Scripts/FlickeringLight.cs"
 "Assets/Scripts/Astronaut.cs"
+"Assets/Scripts/Camera.cs"
 "Assets/Scripts/ElectricPlatFormCtrl.cs"
 "Assets/Scripts/FirePlatFormCtrl.cs"
 "Assets/Scripts/HitPlatForm.cs"
