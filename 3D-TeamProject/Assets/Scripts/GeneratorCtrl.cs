@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class GeneratorCtrl : MonoBehaviour
 {
+    static public bool AttatchGameOpen = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +24,16 @@ public class GeneratorCtrl : MonoBehaviour
         if (coll.collider.CompareTag("Player"))
         {
             Debug.Log("Play");
-
+            AttatchGameOpen= true;
         }
     }
+
+    //private void OnCollisionExit(Collision coll)
+    //{
+    //    if (coll.collider.CompareTag("Player"))
+    //    {
+    //        Debug.Log("Don't Play");
+    //        AttatchGameOpen = false;
+    //    }    
+    //}
 }
