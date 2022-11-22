@@ -23,7 +23,7 @@ public class SetActive : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.Space))
             {
-                Debug.Log("마우스 입력 받았음");
+                Debug.Log("키 입력 받았음");
                 if (state == true)
                 {
                     Target.SetActive(false);

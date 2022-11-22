@@ -360,6 +360,8 @@
 "Assets/Scripts/FirePlatFormCtrl.cs"
 "Assets/Scripts/GeneratorCtrl.cs"
 "Assets/Scripts/HitPlatForm.cs"
+"Assets/Scripts/MapActive.cs"
+"Assets/Scripts/MapCtrl.cs"
 "Assets/Scripts/SetActive.cs"
 "Assets/Scripts/UIMgr.cs"
 "Assets/Stylized Astronaut/Character/Player.cs"
