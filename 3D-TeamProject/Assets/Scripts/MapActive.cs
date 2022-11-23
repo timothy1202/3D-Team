@@ -23,18 +23,21 @@ public class MapActive : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Debug.Log("키 입력 받았음");
-                if (Mapstate == true)
-                {
-                    MapTarget.SetActive(false);
-                    Debug.Log("맵 사라져");
-                    Mapstate = false;
-                }
-                else
+                if(Mapstate== false)
                 {
                     MapTarget.SetActive(true);
                     Debug.Log("맵 생겨나");
                     Mapstate = true;
+                    MapCtrl.MapOpen = false;
                 }
+            }
+                if(UIMgr.MapBtOn==true)
+                {
+                    MapTarget.SetActive(false);
+                    Debug.Log("맵 사라져");
+                    Mapstate = false;
+                    UIMgr.MapBtOn = false;
+                    MapCtrl.MapOpen = false;
             }
         }
     }

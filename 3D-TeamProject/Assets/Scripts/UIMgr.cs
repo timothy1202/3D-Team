@@ -4,15 +4,20 @@ using UnityEngine;
 using System.Collections;
 using static UnityEngine.GraphicsBuffer;
 
-public class UIMgr : SetActive
+public class UIMgr : MonoBehaviour
 {
-    public void OnClickStartBtn()
+    static public bool AttatchGameBtOn = false;
+    static public bool MapBtOn = false;
+    public void AttatchGameOnClickStartBtn()
+    {  
+        Debug.Log("Close Attatch Game");
+        AttatchGameBtOn = true; 
+    }
+    public void MapOnClickStartBtn()
     {
-        Debug.Log("Click Button");
-        //state = false;
-        //SetActive.Target.SetActive(false);
-        //GeneratorCtrl.AttatchGameOpen = false;
-        //GameObject.Find("generator").GetComponent<GeneratorCtrl>().AttatchGameOpen =false) ;
+        Debug.Log("Close Map");
+        MapBtOn= true;
+
     }
     // Start is called before the first frame update
     void Start()
