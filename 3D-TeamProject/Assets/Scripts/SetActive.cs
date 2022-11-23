@@ -20,7 +20,7 @@ public class SetActive : MonoBehaviour
         if (GeneratorCtrl.AttatchGameOpen==true)
         {
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.F))
             {
                 Debug.Log("키 입력 받았음");
 

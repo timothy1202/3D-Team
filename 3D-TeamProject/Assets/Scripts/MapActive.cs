@@ -19,7 +19,7 @@ public class MapActive : MonoBehaviour
         if (MapCtrl.MapOpen== true)
         {
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.F))
             {
                 Debug.Log("키 입력 받았음");
                 if(Mapstate== false)
