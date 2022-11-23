@@ -7,18 +7,12 @@ using static UnityEngine.GraphicsBuffer;
 public class UIMgr : MonoBehaviour
 {
     static public bool AttatchGameBtOn = false;
-    static public bool MapBtOn = false;
     public void AttatchGameOnClickStartBtn()
     {  
         Debug.Log("Close Attatch Game");
         AttatchGameBtOn = true; 
     }
-    public void MapOnClickStartBtn()
-    {
-        Debug.Log("Close Map");
-        MapBtOn= true;
-
-    }
+    
     // Start is called before the first frame update
     void Start()
     {

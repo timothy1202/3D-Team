@@ -19,7 +19,6 @@ public class MapActive : MonoBehaviour
         if (MapCtrl.MapOpen== true)
         {
 
-
             if (Input.GetKeyDown(KeyCode.Space))
             {
                 Debug.Log("키 입력 받았음");
@@ -31,14 +30,14 @@ public class MapActive : MonoBehaviour
                     MapCtrl.MapOpen = false;
                 }
             }
-                if(UIMgr.MapBtOn==true)
+        }
+                if(UIMgrMap.MapBtOn==true)
                 {
                     MapTarget.SetActive(false);
                     Debug.Log("맵 사라져");
                     Mapstate = false;
-                    UIMgr.MapBtOn = false;
+                    UIMgrMap.MapBtOn = false;
                     MapCtrl.MapOpen = false;
-            }
-        }
+                }
     }
 }
