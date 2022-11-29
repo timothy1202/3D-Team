@@ -3,15 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - ElectricPlatForm
-  - FirePlatForm
-<<<<<<< HEAD
-  - Target
-=======
-  - TOUCH
-  - EquipPoint
->>>>>>> e7023556616a811bfec367838334559b6bcdba62
+  tags: []
   layers:
   - Default
   - TransparentFX
