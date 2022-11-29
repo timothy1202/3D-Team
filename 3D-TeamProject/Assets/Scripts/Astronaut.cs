@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//¾È³ç
 public class Astronaut : MonoBehaviour
 {
 	public float speed;
