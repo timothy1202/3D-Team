@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ElectricPlatForm
   - FirePlatForm
+  - Target
   layers:
   - Default
   - TransparentFX
