@@ -6,7 +6,12 @@ TagManager:
   tags:
   - ElectricPlatForm
   - FirePlatForm
+<<<<<<< HEAD
   - Target
+=======
+  - TOUCH
+  - EquipPoint
+>>>>>>> e7023556616a811bfec367838334559b6bcdba62
   layers:
   - Default
   - TransparentFX
