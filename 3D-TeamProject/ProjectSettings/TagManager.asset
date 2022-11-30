@@ -6,6 +6,8 @@ TagManager:
   tags:
   - ElectricPlatForm
   - FirePlatForm
+  - Tast-wire
+  - task-wire
   layers:
   - Default
   - TransparentFX

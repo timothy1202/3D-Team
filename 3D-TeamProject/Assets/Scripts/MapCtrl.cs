@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MapCtrl : MonoBehaviour
 {
+    //test
     static public bool MapOpen = false;
     // Start is called before the first frame update
     void Start()
