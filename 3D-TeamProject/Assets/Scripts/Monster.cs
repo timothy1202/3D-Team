@@ -5,11 +5,15 @@ using UnityEngine.AI;
 
 public class Monster : MonoBehaviour
 {
+    public enum MonsterState { idle, trace };
+    public MonsterState monsterState = MonsterState.idle;
 
     private Transform monsterTr;
     private Transform playerTr;
-    private UnityEngine.AI.NavMeshAgent nvAgent;
+    private NavMeshAgent nvAgent;
+    private Animator animator;
 
+    
     public float traceDist = 10.0f;
 
     // Start is called before the first frame update
@@ -17,8 +21,9 @@ public class Monster : MonoBehaviour
     {
         monsterTr = this.gameObject.GetComponent<Transform>();
         playerTr = GameObject.FindWithTag("Target").GetComponent<Transform>();
-        nvAgent = this.gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
-        //nvAgent.destination = playerTr.position;
+        nvAgent = this.gameObject.GetComponent<NavMeshAgent>();
+        animator = this.gameObject.GetComponent<Animator>();
+       // nvAgent.destination = playerTr.position;
 
     }
 

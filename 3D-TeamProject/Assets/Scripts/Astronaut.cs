@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class Anim
+/*public class Anim
 {
 	public AnimationClip idle;
 	public AnimationClip walk;
 	public AnimationClip Jump_loop;
-}
+}*/
 
 public class Astronaut : MonoBehaviour
 {
