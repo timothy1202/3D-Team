@@ -1,11 +1,42 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FirePlatFormCtrl : HitPlatForm
 {
-    public float HitDist = 20.0f;
+    bool PlayerOn = false;
     
+    private IEnumerator DelayedAction()
+    {
+
+        while (PlayerOn == true)
+        {
+            yield return new WaitForSeconds(2.0f);
+            Astronaut.PlayerHp = Astronaut.PlayerHp - HitDamage;
+            Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
+
+            if (Astronaut.PlayerHp <= 0)
+            {
+                Astronaut.PlayerDie();
+            }
+        }  
+
+        if(PlayerOn== false)
+        {
+
+        for (int i = 0; i < 4; i++)
+        {
+            yield return new WaitForSeconds(2.0f);
+            Astronaut.PlayerHp = Astronaut.PlayerHp - HitDamage;
+            Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
+        }
+        }
+
+
+
+    }
+
     void Start()
     {
         
@@ -17,16 +48,23 @@ public class FirePlatFormCtrl : HitPlatForm
         
     }
 
-    private void OnCollisionStay(Collision coll)
+    private void OnCollisionEnter(Collision coll)
     {
-        if (coll.collider.tag == "Player")
+
+        if (coll.collider.CompareTag("Player"))
         {
-            Astronaut.PlayerHp = Astronaut.PlayerHp - HitDamage;
-            Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
-            if (Astronaut.PlayerHp <= 0)
-            {
-                Astronaut.PlayerDie();
-            }
+            PlayerOn = true;
+            StopCoroutine(DelayedAction());
+            StartCoroutine(DelayedAction());
+
+        }
+    }
+    private void OnCollisionExit(Collision coll)
+    {
+        if (coll.collider.CompareTag("Player"))
+        {
+            PlayerOn = false;   
+            StopCoroutine(DelayedAction());
         }
     }
 

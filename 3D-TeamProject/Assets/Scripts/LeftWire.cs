@@ -5,8 +5,8 @@ using UnityEngine;
 public class LeftWire : MonoBehaviour
 { 
     [SerializeField]
-    private RectTransform mWirebBody;
-    private LeftWire mSelecteWire;
+    private RectTransform mWireBody;
+    private LeftWire mSelectedWire;
 
     [SerializeField]
     private float offset = 15f;
@@ -21,7 +21,7 @@ public class LeftWire : MonoBehaviour
 // Update is called once per frame
     void Update()
     {
-    if (Input.GetMouseButton(0))
+    if (Input.GetMouseButtonDown(0))
     {
         RaycastHit2D hit = Physics2D.Raycast(Input.mousePosition, Vector2.right, 1f);
         if (hit.collider != null)
@@ -29,28 +29,28 @@ public class LeftWire : MonoBehaviour
             var left = hit.collider.GetComponentInParent<LeftWire>();
             if (left != null)
             {
-                mSelecteWire = left;
+                mSelectedWire= left;
             }
         }
     }
 
     if (Input.GetMouseButtonUp(0))
     {
-        if (mSelecteWire != null)
+        if (mSelectedWire != null)
         {
-            mWirebBody.localRotation = Quaternion.Euler(Vector3.zero);
-            mWirebBody.sizeDelta = new Vector2(0f, mWirebBody.sizeDelta.y);
-            mSelecteWire = null;
+            mWireBody.localRotation = Quaternion.Euler(Vector3.zero);
+            mWireBody.sizeDelta = new Vector2(0f, mWireBody.sizeDelta.y);
+            mSelectedWire = null;
         }
     }
 
-    if (mSelecteWire != null)
+    if (mSelectedWire != null)
     {
         float angle = Vector2.SignedAngle(transform.position + Vector3.right - transform.position,
             Input.mousePosition - transform.position);
-        float distance = (Vector2.Distance(mWirebBody.transform.position, Input.mousePosition) - offset);
-        mWirebBody.localRotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
-        mWirebBody.sizeDelta = new Vector2(distance * (1 / mGameCanvas.transform.localScale.x), mWirebBody.sizeDelta.y);
+        float distance = (Vector2.Distance(mWireBody.transform.position, Input.mousePosition) - offset);
+        mWireBody.localRotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
+        mWireBody.sizeDelta = new Vector2(distance * (1 / mGameCanvas.transform.localScale.x), mWireBody.sizeDelta.y);
     }
     }
 }
