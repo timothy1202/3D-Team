@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -100,7 +100,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 87
+  controlID: 17
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,7 +146,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 115
+  controlID: 127
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -307,10 +307,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 191}
-      m_SelectedIDs: a2ddffff
-      m_LastClickedID: -8798
-      m_ExpandedIDs: 2edeffff
+      scrollPos: {x: 0, y: 0}
+      m_SelectedIDs: 4e620000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2cfbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -416,36 +416,36 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Sci-Fi Styled Modular Pack/Prefabs/Lights
+    - Assets/Stylized Astronaut
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 69
   m_LastFolders:
-  - Assets/Sci-Fi Styled Modular Pack/Prefabs/Lights
+  - Assets/Stylized Astronaut
   m_LastFoldersGridSize: 69
   m_LastProjectPath: C:\2022git\3D-Team\3D-TeamProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 12910000
-    m_LastClickedID: 37138
-    m_ExpandedIDs: 00000000c4900000c6900000c8900000ca900000cc900000ce900000d0900000d2900000d4900000d6900000d8900000da900000dc90000000ca9a3b
+    m_SelectedIDs: 50610000
+    m_LastClickedID: 24912
+    m_ExpandedIDs: 000000003e610000406100004261000044610000466100007c6100009661000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Hovl Studio
+      m_OriginalName: Hovl Studio
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 24906
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -459,7 +459,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c4900000c6900000c8900000ca900000cc900000ce900000d0900000d2900000d4900000d6900000d8900000da900000dc900000
+    m_ExpandedIDs: 000000003e61000040610000426100004461000046610000486100004a6100004c6100004e61000050610000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -865,9 +865,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.9909935, y: 1.2730876, z: -16.734928}
+    m_Target: {x: -1.6221782, y: 2.959782, z: -2.2137067}
     speed: 2
-    m_Value: {x: -9.9909935, y: 1.2730876, z: -16.734928}
+    m_Value: {x: -1.6221782, y: 2.959782, z: -2.2137067}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -914,9 +914,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.013846722, y: -0.9852677, z: 0.1407513, w: -0.09670311}
+    m_Target: {x: -0.015651071, y: -0.97239137, z: 0.06806991, w: -0.2229011}
     speed: 2
-    m_Value: {x: -0.013700953, y: -0.98542523, z: 0.13926582, w: -0.09671862}
+    m_Value: {x: -0.015548106, y: -0.972672, z: 0.06808963, w: -0.22143029}
   m_Size:
     m_Target: 9.12025
     speed: 2
