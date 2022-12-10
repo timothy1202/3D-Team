@@ -19,9 +19,6 @@ public class Player : MonoBehaviour
 
     public Anim anim;
     private Animation _animation;
-
-    public int hp = 100;
-
     void Start()
     {
         tr = GetComponent<Transform>();
@@ -58,11 +55,11 @@ public class Player : MonoBehaviour
             moveSpeed = moveSpeed * 1.5f;
         }*/
 
-        if (moveSpeed == 15.0f)
+        if(moveSpeed == 15.0f)
         {
             _animation.CrossFade(anim.run.name, 0.3f);
         }
-        else if (moveSpeed == 10.0f)
+        else if(moveSpeed == 10.0f)
         {
             //_animation.CrossFade(anim.walk.name, 0.3f);
         }
@@ -85,26 +82,5 @@ public class Player : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter(Collider coll)
-    {
-        if (coll.gameObject.tag == "PUNCH")
-        {
-            hp -= 25;
-            Debug.Log("Player HP = " + hp.ToString());
-            if (hp <= 0)
-            {
-                PlayerDie();
-            }
-        }
-    }
 
-    void PlayerDie()
-    {
-        Debug.Log("Player Die!!");
-        GameObject[] monsters = GameObject.FindGameObjectsWithTag("MONSTER");
-        foreach (GameObject monster in monsters)
-        {
-            monster.SendMessage("OnPlayerDie", SendMessageOptions.DontRequireReceiver);
-        }
-    }
 }

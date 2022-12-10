@@ -83,20 +83,6 @@ public class Monster : MonoBehaviour
     {
     }
 
-   /* void OnCollisionEnter(Collision coll)
-    {
-        if (coll.gameObject.tag == "Target")
-        {
-            Destroy(coll.gameObject);
-            animator.SetTrigger("IsHit");
-        }
-    }*/
 
-    void OnPlayerDie()
-    {
-        StopAllCoroutines();
-        nvAgent.isStopped = true;
-        animator.SetTrigger("IsPlayerDie");
-    }
 
 }
