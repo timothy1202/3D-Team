@@ -1,35 +1,76 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
-public class Player : MonoBehaviour {
+[System.Serializable]
+public class Anim_
+{
+    public AnimationClip idle;
+    public AnimationClip walk;
+    public AnimationClip run;
+}
+public class Player : MonoBehaviour
+{
 
-		private Animator anim;
-		private CharacterController controller;
+    private float h = 0.0f;
+    private float v = 0.0f;
+    private Transform tr;
+    public float moveSpeed = 5.0f;
+    public float rotSpeed = 100.0f;
 
-		public float speed = 600.0f;
-		public float turnSpeed = 400.0f;
-		private Vector3 moveDirection = Vector3.zero;
-		public float gravity = 20.0f;
+    public Anim anim;
+    private Animation _animation;
+    void Start()
+    {
+        tr = GetComponent<Transform>();
 
-		void Start () {
-			controller = GetComponent <CharacterController>();
-			anim = gameObject.GetComponentInChildren<Animator>();
-		}
+        _animation = GetComponent<Animation>();
+        //  _animation.clip = anim.idle;
+        _animation.Play();
+    }
 
-		void Update (){
-			if (Input.GetKey ("w")) {
-				anim.SetInteger ("AnimationPar", 1);
-			}  else {
-				anim.SetInteger ("AnimationPar", 0);
-			}
+    void Update()
+    {
+        h = Input.GetAxis("Horizontal");
+        v = Input.GetAxis("Vertical");
 
-			if(controller.isGrounded){
-				moveDirection = transform.forward * Input.GetAxis("Vertical") * speed;
-			}
+        Debug.Log("H=" + h.ToString());
+        Debug.Log("V=" + h.ToString());
 
-			float turn = Input.GetAxis("Horizontal");
-			transform.Rotate(0, turn * turnSpeed * Time.deltaTime, 0);
-			controller.Move(moveDirection * Time.deltaTime);
-			moveDirection.y -= gravity * Time.deltaTime;
-		}
+        Vector3 moveDir = (Vector3.forward * v) + (Vector3.right * h);
+
+        //tr.Translate(Vector3.forward * Time.deltaTime * moveSpeed, Space.Self);
+        tr.Translate(moveDir.normalized * Time.deltaTime * moveSpeed, Space.Self);
+
+        tr.Rotate(Vector3.up * Time.deltaTime * rotSpeed * Input.GetAxis("Mouse X"));
+
+        Movement();
+
+
+        if (moveSpeed == 15.0f)
+        {
+            //_animation.CrossFade(anim.run.name, 0.3f);
+        }
+        else if (moveSpeed == 10.0f)
+        {
+            // _animation.CrossFade(anim.walk.name, 0.3f);
+        }
+        else
+        {
+            // _animation.CrossFade(anim.idle.name, 0.3f);
+        }
+    }
+
+    void Movement()
+    {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            // Debug.Log("½ºÇÇµå");
+            moveSpeed = 15.0f;
+        }
+        else
+        {
+            moveSpeed = 5.0f;
+        }
+    }
 }
