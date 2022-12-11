@@ -8,7 +8,7 @@ public class LeftWire : MonoBehaviour
     private RectTransform mWireBody;
     private LeftWire mSelectedWire;
 
-    [SerializeField]
+    [SerializeField] 
     private float offset = 15f;
     private Canvas mGameCanvas;
 
@@ -38,6 +38,24 @@ public class LeftWire : MonoBehaviour
         {
             if (mSelectedWire != null)
             {
+                RaycastHit2D[] hits = Physics2D.RaycastAll(Input.mousePosition, Vector2.right, 1f);
+                foreach(var hit in hits)
+                {
+
+                if (hit.collider != null)
+                {
+                    var right = hit.collider.GetComponentInParent<RightWire>();
+                    if (right != null)
+                    {
+                            float angle = Vector2.SignedAngle(transform.position + Vector3.right - transform.position,
+                            hit.transform.position - transform.position);
+                            float distance = (Vector2.Distance(mWireBody.transform.position,hit.transform.position) - 40);
+                            mWireBody.localRotation = Quaternion.Euler(new Vector3(0f, 0f, angle));
+                            mWireBody.sizeDelta = new Vector2(distance * (1 / mGameCanvas.transform.localScale.x), mWireBody.sizeDelta.y);
+                            return;
+                    }
+                }
+                }
                 mWireBody.localRotation = Quaternion.Euler(Vector3.zero);
                 mWireBody.sizeDelta = new Vector2(0f, mWireBody.sizeDelta.y);
                 mSelectedWire = null;

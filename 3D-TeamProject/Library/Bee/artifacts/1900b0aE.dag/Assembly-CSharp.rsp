@@ -372,6 +372,7 @@
 "Assets/Scripts/MP.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/playercontroller.cs"
+"Assets/Scripts/RightWire.cs"
 "Assets/Scripts/SetActive.cs"
 "Assets/Scripts/SetActivePlug.cs"
 "Assets/Scripts/SetActiveWire.cs"
