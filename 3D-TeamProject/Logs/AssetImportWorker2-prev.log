@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.13f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/ckalt/OneDrive/문서/GitHub/3D-Team/3D-TeamProject
+D:/바탕화면/3D-TeamProject
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-61664
-Successfully changed project path to: C:/Users/ckalt/OneDrive/문서/GitHub/3D-Team/3D-TeamProject
-C:/Users/ckalt/OneDrive/문서/GitHub/3D-Team/3D-TeamProject
+51824
+Successfully changed project path to: D:/바탕화면/3D-TeamProject
+D:/바탕화면/3D-TeamProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/Users/ckalt/OneDrive/문서/GitHub/3D-Team/3D-TeamProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 97.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 114.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/ckalt/OneDrive/문서/GitHub/3D-Team/3D-TeamProject/Assets
+[Subsystems] Discovering subsystems at path D:/바탕화면/3D-TeamProject/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.018547 seconds.
+Registered in 0.020127 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.84 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 101.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.766 seconds
+- Completed reload, in  0.860 seconds
 Domain Reload Profiling:
-	ReloadAssembly (766ms)
-		BeginReloadAssembly (123ms)
+	ReloadAssembly (861ms)
+		BeginReloadAssembly (125ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (498ms)
-			LoadAssemblies (118ms)
+		EndReloadAssembly (571ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (126ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (291ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (14ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
+				RefreshPlugins (101ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				ProcessInitializeOnLoadAttributes (143ms)
+				ProcessInitializeOnLoadMethodAttributes (84ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.014283 seconds.
+Registered in 0.017710 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\ckalt\OneDrive\문서\GitHub\3D-Team\3D-TeamProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\ckalt\OneDrive\문서\GitHub\3D-Team\3D-TeamProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\바탕화면\3D-TeamProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\바탕화면\3D-TeamProject\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.294 seconds
+- Completed reload, in  1.358 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1295ms)
-		BeginReloadAssembly (174ms)
+	ReloadAssembly (1360ms)
+		BeginReloadAssembly (171ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (970ms)
-			LoadAssemblies (164ms)
+		EndReloadAssembly (1034ms)
+			LoadAssemblies (149ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (296ms)
+			SetupTypeCache (327ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (58ms)
-			SetupLoadedEditorAssemblies (436ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (469ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (20ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (278ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (23ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (17ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3363 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 27 unused Assets / (113.4 KB). Loaded Objects now: 3824.
 Memory consumption went from 118.4 MB to 118.3 MB.
-Total: 3.458200 ms (FindLiveObjects: 0.394700 ms CreateObjectMapping: 0.346400 ms MarkObjects: 2.600400 ms  DeleteObjects: 0.115600 ms)
+Total: 2.754700 ms (FindLiveObjects: 0.253600 ms CreateObjectMapping: 0.180900 ms MarkObjects: 2.219700 ms  DeleteObjects: 0.099600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -160,19 +160,343 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1585739.990390 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/art_5.fbx
-  artifactKey: Guid(e528381f299d2ce4db9f7e803942a77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/art_5.fbx using Guid(e528381f299d2ce4db9f7e803942a77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cd30a4d0a05a3503eedc8d5d52f55b6') in 0.245112 seconds 
+  Time since last request: 1690477.556404 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/base color.mat
+  artifactKey: Guid(10de6384af0c3b54e8166f9c3f936e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/Palletes/base color.mat using Guid(10de6384af0c3b54e8166f9c3f936e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4996df4e8cb007adb1a3c97cb33905f9') in 0.198446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.060582 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Models/Materials/base color.mat
+  artifactKey: Guid(1cf3cfed14637cd42a0ad3f801ebdb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Models/Materials/base color.mat using Guid(1cf3cfed14637cd42a0ad3f801ebdb71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455400e86b985fb60de89bda83ea1e87') in 0.016398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.881085 seconds.
+  path: Assets/Stylized Astronaut/Character
+  artifactKey: Guid(b97d8aed59d353443a81b6380f674cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Astronaut/Character using Guid(b97d8aed59d353443a81b6380f674cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb46565674a54b4c6bbde921b46fc82e') in 0.012838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.072239 seconds.
+  path: Assets/Stylized Astronaut/Character/Astronaut.fbx
+  artifactKey: Guid(02dd6406ed1ebc248b2fafd0485e0de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Stylized Astronaut/Character/Astronaut.fbx using Guid(02dd6406ed1ebc248b2fafd0485e0de9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b862596382f55c356605ca0c5c7917') in 0.124502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.252419 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials
+  artifactKey: Guid(cdd317393a892a442866c01c1e103e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials using Guid(cdd317393a892a442866c01c1e103e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c8a98c992bc00fc2c976eddea99c86') in 0.013358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.100441 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/nature_root.mat
+  artifactKey: Guid(00fc27719fc29924b9a34aab914dc83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/nature_root.mat using Guid(00fc27719fc29924b9a34aab914dc83a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb9c7fc1143c51174aa90ad97973142') in 0.017809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Materials/projector_warning.mat
+  artifactKey: Guid(51d587eafcd13384bafd060c5bc7cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Materials/projector_warning.mat using Guid(51d587eafcd13384bafd060c5bc7cb82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66dafaed18b6e2314e9039e20f544452') in 0.023132 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.819249 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials/Sand.mat
+  artifactKey: Guid(d7ecd8db85bf61440b7ca5d302afd010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials/Sand.mat using Guid(d7ecd8db85bf61440b7ca5d302afd010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfc1475e9a505c60075c524ed2cab8ae') in 0.026249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.387141 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials
+  artifactKey: Guid(2ab72befc884bc441bbb2ff569663c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Example scenes/Materials using Guid(2ab72befc884bc441bbb2ff569663c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b404a78db1bcb7e95e569bd9f999ca') in 0.003137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.779049 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements
+  artifactKey: Guid(eef4d684156c15f488dce33a106bf85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements using Guid(eef4d684156c15f488dce33a106bf85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af6dea55660ad3126db1fe42d52df75') in 0.008682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.191986 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/bed.prefab
+  artifactKey: Guid(43d083e8215b4544594282d6c144d7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/bed.prefab using Guid(43d083e8215b4544594282d6c144d7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25741ec9cf44ec038c7030343a77db1') in 0.035464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/bunk_bed.prefab
+  artifactKey: Guid(9efb87eb649319c4c8c3a954a74df462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/bunk_bed.prefab using Guid(9efb87eb649319c4c8c3a954a74df462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b682200377cd74335c5a58dfc2e42b') in 0.037204 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Models/art_6.fbx
-  artifactKey: Guid(a39d814f15db1874aa26081d239b1b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Models/art_6.fbx using Guid(a39d814f15db1874aa26081d239b1b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4689f71da53b4f477f16ef43050ba70b') in 0.029395 seconds 
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/cabinet_L_cutted.prefab
+  artifactKey: Guid(8c10b28a5dc86904db537e28568805a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/cabinet_L_cutted.prefab using Guid(8c10b28a5dc86904db537e28568805a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ee36ed853fc122346cd0f5ba9b898a') in 0.054691 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Sci-Fi Styled Modular Pack/Materials/comuter_wall.mat
-  artifactKey: Guid(0d0f1f087865a1c47826008280428fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sci-Fi Styled Modular Pack/Materials/comuter_wall.mat using Guid(0d0f1f087865a1c47826008280428fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec4a6ba3618c8f0fb925b46b88e1def4') in 0.072464 seconds 
+  Time since last request: 11.258587 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/computer_station.prefab
+  artifactKey: Guid(82c3b8fcabff82d4787f83e992e386df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/computer_station.prefab using Guid(82c3b8fcabff82d4787f83e992e386df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc851037b335b1293b8ebc9a9557a35') in 0.052143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.325943 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/console_celing.prefab
+  artifactKey: Guid(104703105626daa4f8b3f24af487d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/console_celing.prefab using Guid(104703105626daa4f8b3f24af487d01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10376cd245ece3742fa3a7c6e386d038') in 0.071323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.423425 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/decorative_chair.prefab
+  artifactKey: Guid(ce9f6338cd38cc242ae7ba54eb5ca686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/decorative_chair.prefab using Guid(ce9f6338cd38cc242ae7ba54eb5ca686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4dc01808c0952593c9086991c66f4f') in 0.073283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.380376 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/decorative_plant_desk.prefab
+  artifactKey: Guid(7dd02c12b2c21ff49aa148934b3c1395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/decorative_plant_desk.prefab using Guid(7dd02c12b2c21ff49aa148934b3c1395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '692957bd04d97194095a46b2f688ff5f') in 0.036983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.858614 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/decorative_plant_small.prefab
+  artifactKey: Guid(a4b101bd1cf6bc9478190c1aa0f3d52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/decorative_plant_small.prefab using Guid(a4b101bd1cf6bc9478190c1aa0f3d52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '283ff5476d0918dc945fa9e73a8ec605') in 0.055350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.338676 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/floor_corner_ornament.prefab
+  artifactKey: Guid(0759e5b8616fa854dbb807a3ac19ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/floor_corner_ornament.prefab using Guid(0759e5b8616fa854dbb807a3ac19ec2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dace0cfeaff3244fafe09953980dafe') in 0.037801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.489181 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/floor_corner_ornament_pipes_corner.prefab
+  artifactKey: Guid(fe8bb31403053dd44ae7ac2396ff8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/floor_corner_ornament_pipes_corner.prefab using Guid(fe8bb31403053dd44ae7ac2396ff8fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77033b827cb13d810ebe32cfe32807d') in 0.030884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/hydroponic.prefab
+  artifactKey: Guid(1759eacdee08e12408d757d50755a6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/hydroponic.prefab using Guid(1759eacdee08e12408d757d50755a6d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe16caa1249f837042ed2eb0d1c98301') in 0.072385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.294136 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/pilot_seat.prefab
+  artifactKey: Guid(790e191d50e6fe249900e78369ae7986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/pilot_seat.prefab using Guid(790e191d50e6fe249900e78369ae7986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd023e4794c3bdd4e7b606364d116bc') in 0.028678 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038497 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/shelf_small.prefab
+  artifactKey: Guid(27b528ce18adf6f48bd23431f0fd8f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/shelf_small.prefab using Guid(27b528ce18adf6f48bd23431f0fd8f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1dd4c3cfcadf18ff728b888eefcf1da') in 0.024432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.760869 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/sign.prefab
+  artifactKey: Guid(48f0889733d556d4a927a13a99a7f434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/sign.prefab using Guid(48f0889733d556d4a927a13a99a7f434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b385ab7748dc3c8a72cdcf80d456b9be') in 0.040628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.536021 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Corridors/Corridor_1.prefab
+  artifactKey: Guid(f18932879bb23b84ca5370b65419ee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Corridors/Corridor_1.prefab using Guid(f18932879bb23b84ca5370b65419ee41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793876261b814c544037eecde71f7d99') in 0.043347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Corridors/Corridor_I.prefab
+  artifactKey: Guid(64b3f36e835346747865afbf6cf62acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Corridors/Corridor_I.prefab using Guid(64b3f36e835346747865afbf6cf62acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4325f5e8c77b06bcc5fd9dc1efb88d') in 0.063314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.941237 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Doors/door_1.prefab
+  artifactKey: Guid(ea798cfb4939d4441b95d1bd39d0767f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Doors/door_1.prefab using Guid(ea798cfb4939d4441b95d1bd39d0767f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663cd4387db8def868878422b9138a99') in 0.044369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.612134 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Cube_1x1_extended.prefab
+  artifactKey: Guid(1b9426746a4365c40b24a81f6ad2daea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Cube_1x1_extended.prefab using Guid(1b9426746a4365c40b24a81f6ad2daea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbad3c710280c58758e2c404f3acc19f') in 0.030842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Sphere_16_extended.prefab
+  artifactKey: Guid(a8db70ed00a022d4ca7f82df02fbc4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Extended Primitives/Sphere_16_extended.prefab using Guid(a8db70ed00a022d4ca7f82df02fbc4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5cf0e5810359a189a72dc8fbae0ea1') in 0.023144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.287487 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Floors/floor_1.prefab
+  artifactKey: Guid(5bceb99c9fa1f2a4bb9692e518bec46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Floors/floor_1.prefab using Guid(5bceb99c9fa1f2a4bb9692e518bec46c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803ae61323b5cd03edc0820b4befbdd4') in 0.060571 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Floors/floor_3.prefab
+  artifactKey: Guid(a185d2c8149cc7d45a8bc91951812dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Floors/floor_3.prefab using Guid(a185d2c8149cc7d45a8bc91951812dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5105039c1a7d2e1c471e2eb01a96627') in 0.021134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Floors/floor_2_L.prefab
+  artifactKey: Guid(5b3cc55650f95e34797ed0af9c57110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Floors/floor_2_L.prefab using Guid(5b3cc55650f95e34797ed0af9c57110a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb43582a0d3d355e99e7d6b0a2fcda53') in 0.050942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.402575 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Joints/Joint_T_6.prefab
+  artifactKey: Guid(825145a142d78c74b8962c930ad0d269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Joints/Joint_T_6.prefab using Guid(825145a142d78c74b8962c930ad0d269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '528d940ff05b2e9a8b698f858bd95afc') in 0.037873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.612354 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_celing_1.prefab
+  artifactKey: Guid(9c0a6df65fcfba243abb2cf9260b869f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_celing_1.prefab using Guid(9c0a6df65fcfba243abb2cf9260b869f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcb5545452615767f7efecee1f3b08e9') in 0.150113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002798 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_1_blue.prefab
+  artifactKey: Guid(7bfca64f0cf4ef248b199077f3f98357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_1_blue.prefab using Guid(7bfca64f0cf4ef248b199077f3f98357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255284d03fcba63e939a4d4b3cc1b8e3') in 0.063513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_1.prefab
+  artifactKey: Guid(bf47bd9e279487a4ca3d6f7a10492900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Lights/light_wall_1.prefab using Guid(bf47bd9e279487a4ca3d6f7a10492900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11404db1163632907d44f7c7b546a8c1') in 0.054316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.260204 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/Battery.prefab
+  artifactKey: Guid(857b9bcf7311f5a49b829c4fd3cc791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/Battery.prefab using Guid(857b9bcf7311f5a49b829c4fd3cc791f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d62f9166f5bb0039cd05516d12c4eb') in 0.109392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.939601 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/vending_machine.prefab
+  artifactKey: Guid(914595d46f531e44f8b35cd1232a0750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Machines/vending_machine.prefab using Guid(914595d46f531e44f8b35cd1232a0750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd0425676f9bdeb21eb9cc772d9b246') in 0.019127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.461925 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Stairs/stairs_big_with_emmision.prefab
+  artifactKey: Guid(964ef5212b7340f4cb5eff37c56177aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Stairs/stairs_big_with_emmision.prefab using Guid(964ef5212b7340f4cb5eff37c56177aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5833e0b3cc8849a7ea4e29e5e19057') in 0.017538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Stairs/stairs_small_corner_with_emmision.prefab
+  artifactKey: Guid(88e2387d52f16a24bbf3a98f88f690c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Stairs/stairs_small_corner_with_emmision.prefab using Guid(88e2387d52f16a24bbf3a98f88f690c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12401243fb685cbbb12d5ed04747964f') in 0.034227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Stairs/stairs_small_no_emmision.prefab
+  artifactKey: Guid(0c91b5c5fed08f94eafb357c328bca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Stairs/stairs_small_no_emmision.prefab using Guid(0c91b5c5fed08f94eafb357c328bca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d321071297a9dd9de750a3aad75235') in 0.054315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.516831 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_1.prefab
+  artifactKey: Guid(ef77650fcc7dfd64a8d614922d90c382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_1.prefab using Guid(ef77650fcc7dfd64a8d614922d90c382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4b57531a4e761dbd63f4a773216786') in 0.032835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_4_computer.prefab
+  artifactKey: Guid(897c9b0e5e04118499e0903c7754628f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_4_computer.prefab using Guid(897c9b0e5e04118499e0903c7754628f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8363c5cbced0d98d32257d32114f240d') in 0.044196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_5.prefab
+  artifactKey: Guid(339299a7e2fdedf47b7788ab1a25c9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/decorative_wall_5.prefab using Guid(339299a7e2fdedf47b7788ab1a25c9df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45b8152a72d3a172fe47d79ddd36b82f') in 0.037334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.774008 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_1_LOD.prefab
+  artifactKey: Guid(b0b67fee087661941a6b851ede8cc5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_1_LOD.prefab using Guid(b0b67fee087661941a6b851ede8cc5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35913af8ac1562d7ae482103f3a34dd8') in 0.053126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_4_LOD.prefab
+  artifactKey: Guid(04109e82c0d966447966dba624e3821b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Half walls/decorative_half_wall_4_LOD.prefab using Guid(04109e82c0d966447966dba624e3821b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bbb8eeead0cc9081a9a92225fe5564') in 0.047196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.627539 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/blank_wall_A.prefab
+  artifactKey: Guid(e37a5396a520a8e4e8e48c74975b6a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/blank_wall_A.prefab using Guid(e37a5396a520a8e4e8e48c74975b6a61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab9bf3fdeb58af1b600f78eece9da0c9') in 0.036543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/decorative_wall_F.prefab
+  artifactKey: Guid(2d088c87c6df3c442aeff94f902c6ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/decorative_wall_F.prefab using Guid(2d088c87c6df3c442aeff94f902c6ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447436ef277a2c29cddb8d2b61bc11a6') in 0.036209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/decorative_wall_H.prefab
+  artifactKey: Guid(f55f1ed084c77b742a3898e5da2214d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Walls/Simple/decorative_wall_H.prefab using Guid(f55f1ed084c77b742a3898e5da2214d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de9f4e44a455130490b8a7a2b7d5c63') in 0.030922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.578788 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big.prefab
+  artifactKey: Guid(20373c6cd77ef3840af30d9c058fbee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big.prefab using Guid(20373c6cd77ef3840af30d9c058fbee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdce5d8068ed2c4ffd4a83db47619b25') in 0.028985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_corner.prefab
+  artifactKey: Guid(b3ba71d7c63addc49b57e4c8e35af826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_corner.prefab using Guid(b3ba71d7c63addc49b57e4c8e35af826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91154685c2bce91e7a22d75a84caed77') in 0.041868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_plug.prefab
+  artifactKey: Guid(d087389d05d4d7e44922758971ced6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_plug.prefab using Guid(d087389d05d4d7e44922758971ced6af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb80a9b7849ffb3a71a3c10c8198e3f') in 0.039598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.354820 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/Complete Windows/window_big.prefab
+  artifactKey: Guid(964e3fd2e5ff9014ea2a3ce4b682e2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/Complete Windows/window_big.prefab using Guid(964e3fd2e5ff9014ea2a3ce4b682e2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1d5dbe1daea7c6e5b6e80397fab5d3') in 0.027078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/Complete Windows/window_big_corner_blocker.prefab
+  artifactKey: Guid(c84375fce06f8f146a371128360dd36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/Complete Windows/window_big_corner_blocker.prefab using Guid(c84375fce06f8f146a371128360dd36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c4fa262d8444e6f838d07f51d5d6cab') in 0.020918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.092949 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_supplement.prefab
+  artifactKey: Guid(0f6d27018f3822b4f871d6e402510f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Windows/window_big_supplement.prefab using Guid(0f6d27018f3822b4f871d6e402510f77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be709ee7a55934a99a8568a0ec73e5a') in 0.033387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.519725 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_1.prefab
+  artifactKey: Guid(bddb1706eb9e38c4c8aad9e975af8fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_1.prefab using Guid(bddb1706eb9e38c4c8aad9e975af8fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a985e65901d26f83e5d131242ec01c15') in 0.021480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_5.prefab
+  artifactKey: Guid(b1b2094e689c43d4ea4fd01f7c8b5849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sci-Fi Styled Modular Pack/Prefabs/Decorative elements/Arts/art_5.prefab using Guid(b1b2094e689c43d4ea4fd01f7c8b5849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8148660691291fbc6fd2d86560781c3') in 0.043882 seconds 
