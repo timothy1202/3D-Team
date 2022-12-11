@@ -7,6 +7,7 @@ TagManager:
   - ElectricPlatForm
   - FirePlatForm
   - Target
+  - MONSTER
   layers:
   - Default
   - TransparentFX

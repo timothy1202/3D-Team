@@ -1,5 +1,8 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
+
 
 [System.Serializable]
 public class Anim
@@ -17,10 +20,17 @@ public class Player : MonoBehaviour
     public float moveSpeed = 10.0f;
     public float rotSpeed = 100.0f;
 
+    public int hp = 100;
+
+    private int initHp;
+    public Image imgHpbar;
+
+
     public Anim anim;
     private Animation _animation;
     void Start()
     {
+        initHp = hp;
         tr = GetComponent<Transform>();
 
         _animation = GetComponent<Animation>();
@@ -68,7 +78,34 @@ public class Player : MonoBehaviour
             _animation.CrossFade(anim.idle.name, 0.3f);
         }
     }
+    void OnTriggerEnter(Collider coll)
+    {
+        if (coll.gameObject.tag == "MONSTER")
+        {
+            hp -= 25;
 
+            imgHpbar.fillAmount = (float)hp / (float)initHp;
+
+            Debug.Log("Player HP = " + hp.ToString());
+           /* if (hp <= 0)
+            {
+                PlayerDie();
+            }*/
+        }
+
+    }
+
+    void PlayerDie()
+    {
+        Debug.Log("Player Die!!");
+
+       // GameObject[] monsters = GameObject.FindGameObjectsWithTag("MONSTER");
+
+       // foreach (GameObject monster in monsters)
+       // {
+         //   monster.SendMessage("OnPlayerDie", SendMessageOptions.DontRequireReceiver);
+        //}
+    }
     void Movement()
     {
         if (Input.GetKey(KeyCode.LeftShift))
