@@ -12,16 +12,26 @@ public class ElectricPlatFormCtrl : HitPlatForm
         while(PlayerOn == true)
         {
         yield return new WaitForSeconds(2.0f);
-        Astronaut.PlayerHp = Astronaut.PlayerHp - HitDamage;
-        Debug.Log("Player HP = " + Astronaut.PlayerHp.ToString());
+        Player.PlayerHp = Player.PlayerHp - HitDamage;
+        Debug.Log("Player HP = " + Player.PlayerHp.ToString());
 
-            if (Astronaut.PlayerHp <= 0)
+            if (Player.PlayerHp <= 0)
             {
-                Astronaut.PlayerDie();
+                Player.PlayerDie();
+            }
+        }
+        if (PlayerOn == false)
+        {
+
+            for (int i = 0; i < 4; i++)
+            {
+                yield return new WaitForSeconds(2.0f);
+                Player.PlayerHp = Player.PlayerHp - HitDamage;
+                Debug.Log("Player HP = " + Player.PlayerHp.ToString());
             }
         }
 
-     
+
     }
 
     // Start is called before the first frame update
