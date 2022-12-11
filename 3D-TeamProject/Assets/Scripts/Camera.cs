@@ -4,32 +4,28 @@ using UnityEngine;
 
 public class Camera : MonoBehaviour
 {
-    private float xRotate, yRotate, xRotateMove, yRotateMove;
-    public float rotateSpeed = 500.0f;
-
+    public Transform targetTr;
+    public float dist = 10.0f;
+    public float height = 3.0f;
+    public float dampTrace = 20.0f;
+    public float smoothRotate = 5.0f;
+    private Transform tr;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        tr = GetComponent<Transform>();
     }
-
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0)) // 클릭한 경우
-        {
-            xRotateMove = -Input.GetAxis("Mouse Y") * Time.deltaTime * rotateSpeed;
-            yRotateMove = Input.GetAxis("Mouse X") * Time.deltaTime * rotateSpeed;
+        float currYAngle = Mathf.Lerp(tr.eulerAngles.y, targetTr.eulerAngles.y, smoothRotate*Time.deltaTime);
 
-            yRotate = transform.eulerAngles.y + yRotateMove;
-            //xRotate = transform.eulerAngles.x + xRotateMove; 
-            xRotate = xRotate + xRotateMove;
+        Quaternion rot = Quaternion.Euler(0, currYAngle, 0);
 
-            xRotate = Mathf.Clamp(xRotate, -90, 90); // 위, 아래 고정
+        tr.position = targetTr.position - (rot *Vector3.forward*dist) + (Vector3.up*height); 
 
-            transform.eulerAngles = new Vector3(xRotate, yRotate, 0);
-        }
+        tr.LookAt(targetTr);
     }
 }

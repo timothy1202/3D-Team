@@ -368,6 +368,7 @@
 "Assets/Scripts/MapActive.cs"
 "Assets/Scripts/MapCtrl.cs"
 "Assets/Scripts/Monster.cs"
+<<<<<<< HEAD
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/playercontroller.cs"
 "Assets/Scripts/SetActive.cs"
@@ -375,6 +376,11 @@
 "Assets/Scripts/UIMgrGrayDot.cs"
 "Assets/Scripts/UIMgrGrayDot1.cs"
 "Assets/Scripts/UIMgrMap.cs"
+=======
+"Assets/Scripts/MP.cs"
+"Assets/Scripts/Player.cs"
+"Assets/Scripts/playercontroller.cs"
+>>>>>>> re-jh2
 "Assets/Stylized Astronaut/Character/ThirdPersonCamera.cs"
 "Assets/_Barking_Dog/Common Scripts/MouseLook.cs"
 "Assets/_Barking_Dog/Common Scripts/Turn_Move.cs"
