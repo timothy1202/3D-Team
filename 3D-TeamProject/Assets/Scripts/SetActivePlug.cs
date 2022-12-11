@@ -5,7 +5,7 @@ using UnityEngine;
 public class SetActivePlug : MonoBehaviour
 {
     protected bool state;
-    public GameObject Target;
+    public GameObject PlugTarget;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +18,7 @@ public class SetActivePlug : MonoBehaviour
         
         if (UIMgrPiug.PlugBtOn == true)
         {
-            Target.SetActive(true);
+            PlugTarget.SetActive(true);
             state = false;
             UIMgrPiug.PlugBtOn = false;
         }

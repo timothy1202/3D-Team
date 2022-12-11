@@ -1703,7 +1703,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4313069716819966, guid: 297d5153b1cde19478278e5691f77cc7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.37
+      value: -18.31
       objectReference: {fileID: 0}
     - target: {fileID: 4313069716819966, guid: 297d5153b1cde19478278e5691f77cc7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1711,7 +1711,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4313069716819966, guid: 297d5153b1cde19478278e5691f77cc7, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -20.45
+      value: -1.6
       objectReference: {fileID: 0}
     - target: {fileID: 4313069716819966, guid: 297d5153b1cde19478278e5691f77cc7, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3032,7 +3032,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa3c6eb998d0ebc4f817085d0d50b80a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {fileID: 1117032150}
+  PlugTarget: {fileID: 1117032150}
 --- !u!1001 &209016848
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14591,7 +14591,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5624bf60e505ce8429fa9c917db2d639, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {fileID: 1456013109}
+  WireTarget: {fileID: 1456013109}
 --- !u!1001 &1117096376
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25528,7 +25528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4367d90276d8b9b43a25da80540164cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Target: {fileID: 1525401408}
+  BatteryTarget: {fileID: 1525401408}
 --- !u!1001 &2046352123
 PrefabInstance:
   m_ObjectHideFlags: 0

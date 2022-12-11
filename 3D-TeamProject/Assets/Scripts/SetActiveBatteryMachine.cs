@@ -6,7 +6,7 @@ public class SetActiveBatteryMachine : MonoBehaviour
 {
     static public int BatteryCount = 0;
     protected bool state;
-    public GameObject Target;
+    public GameObject BatteryTarget;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +23,7 @@ public class SetActiveBatteryMachine : MonoBehaviour
             {
                 Debug.Log("배터리를 넣어 주었습니다!");
                 BatteryCount++;
-                Target.SetActive(true);
+                BatteryTarget.SetActive(true);
                 BatteryMachine.CameToBatteryMachine = false;
             }
 

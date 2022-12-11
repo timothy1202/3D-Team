@@ -5,7 +5,7 @@ using UnityEngine;
 public class SetActiveWire : MonoBehaviour
 {
     protected bool state;
-    public GameObject Target;
+    public GameObject WireTarget;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +18,7 @@ public class SetActiveWire : MonoBehaviour
 
         if (UIMgrWire.WireBtOn == true)
         {
-            Target.SetActive(true);
+            WireTarget.SetActive(true);
             state = false;
             UIMgrWire.WireBtOn = false;
         }
