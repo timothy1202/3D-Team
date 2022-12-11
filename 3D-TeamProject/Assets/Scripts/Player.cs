@@ -10,7 +10,8 @@ public class Player : MonoBehaviour
     public float speed = 600.0f;
     public float turnSpeed = 400.0f;
     private Vector3 moveDirection = Vector3.zero;
-    public float gravity = 20.0f;
+    public float gravity = 20.0f; 
+    static public int PlayerHp = 500;
 
     void Start()
     {

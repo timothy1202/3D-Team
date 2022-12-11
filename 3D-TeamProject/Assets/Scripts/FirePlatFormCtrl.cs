@@ -18,7 +18,7 @@ public class FirePlatFormCtrl : HitPlatForm
 
             if (Player.PlayerHp <= 0)
             {
-                Player.PlayerDie();
+                Astronaut.PlayerDie();
             }
         }
 

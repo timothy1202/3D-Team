@@ -6,7 +6,6 @@ using UnityEngine;
 public class Astronaut : MonoBehaviour
 {
     public float speed;
-    static public int PlayerHp = 500;
     // Start is called before the first frame update
     void Start()
     {
