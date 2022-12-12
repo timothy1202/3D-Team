@@ -27,5 +27,12 @@ public class GeneratorCtrl : MonoBehaviour
             AttatchGameOpen = true;
         }
     }
+    private void OnCollisionExit(Collision coll)
+    {
 
+        if (coll.collider.CompareTag("Player"))
+        {
+            AttatchGameOpen = false;
+        }
+    }
 }

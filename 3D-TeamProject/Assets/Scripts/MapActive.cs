@@ -27,7 +27,6 @@ public class MapActive : MonoBehaviour
                     MapTarget.SetActive(true);
                     Debug.Log("¸Ê »ý°Ü³ª");
                     Mapstate = true;
-                    MapCtrl.MapOpen = false;
                 }
             }
         }
@@ -37,7 +36,13 @@ public class MapActive : MonoBehaviour
             Debug.Log("¸Ê »ç¶óÁ®");
             Mapstate = false;
             UIMgrMap.MapBtOn = false;
-            MapCtrl.MapOpen = false;
+            //MapCtrl.MapOpen = false;
+        }
+        if(MapCtrl.MapOpen == false)
+        {
+            MapTarget.SetActive(false);
+            Debug.Log("¸Ê »ç¶óÁ®");
+            Mapstate = false;
         }
     }
 }
