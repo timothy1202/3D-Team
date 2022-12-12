@@ -2,10 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.UI;
 
 
 public class Monster : MonoBehaviour
 {
+  
     public enum MonsterState { idle, trace, attack };
     public MonsterState monsterState = MonsterState.idle;
 
@@ -81,8 +83,9 @@ public class Monster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    }
 
+    }
+   
 
 
 }
