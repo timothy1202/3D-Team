@@ -28,13 +28,16 @@ public class MapActive : MonoBehaviour
                 }
             }
         }
-        if (UIMgrMap.MapBtOn == true)
-        {
-            MapTarget.SetActive(false);
-            Mapstate = false;
-            UIMgrMap.MapBtOn = false;
-            //MapCtrl.MapOpen = false;
-        }
+
+            if (UIMgrMap.MapBtOn == true)
+            {
+                MapTarget.SetActive(false);
+                Mapstate = false;
+                UIMgrMap.MapBtOn = false;
+                //MapCtrl.MapOpen = false;
+            }
+        
+
         if(MapCtrl.MapOpen == false)
         {
             MapTarget.SetActive(false);
