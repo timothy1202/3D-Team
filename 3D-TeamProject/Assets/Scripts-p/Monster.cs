@@ -23,7 +23,7 @@ public class Monster : MonoBehaviour
     void Start()
     {
         monsterTr = this.gameObject.GetComponent<Transform>();
-        playerTr = GameObject.FindWithTag("Target").GetComponent<Transform>();
+        playerTr = GameObject.FindWithTag("Player").GetComponent<Transform>();
         nvAgent = this.gameObject.GetComponent<UnityEngine.AI.NavMeshAgent>();
         animator = this.gameObject.GetComponent<Animator>();
         nvAgent.destination = playerTr.position;

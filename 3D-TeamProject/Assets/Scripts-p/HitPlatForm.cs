@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class HitPlatForm : MonoBehaviour
 {
-    protected int HitDamage = 20;
+    protected int HitDamage = 2;
     // Start is called before the first frame update
     void Start()
     {

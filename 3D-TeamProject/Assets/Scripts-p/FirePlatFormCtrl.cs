@@ -13,10 +13,10 @@ public class FirePlatFormCtrl : HitPlatForm
         while (PlayerOn == true)
         {
             yield return new WaitForSeconds(2.0f);
-            Player.PlayerHp = Player.PlayerHp - HitDamage;
-            Debug.Log("Player HP = " + Player.PlayerHp.ToString());
+            Player.curhp = Player.curhp - HitDamage;
+            Debug.Log("Player HP = " + Player.curhp.ToString());
 
-            if (Player.PlayerHp <= 0)
+            if (Player.curhp <= 0)
             {
                 Astronaut.PlayerDie();
             }
@@ -28,8 +28,8 @@ public class FirePlatFormCtrl : HitPlatForm
             for (int i = 0; i < 4; i++)
             {
                 yield return new WaitForSeconds(2.0f);
-                Player.PlayerHp = Player.PlayerHp - HitDamage;
-                Debug.Log("Player HP = " + Player.PlayerHp.ToString());
+                Player.curhp = Player.curhp - HitDamage;
+                Debug.Log("Player HP = " + Player.curhp.ToString());
             }
         }
 

@@ -16,6 +16,7 @@ public class UlmExit : MonoBehaviour
     {
         audioSource.clip = Click;
         audioSource.Play();
+        SceneManager.LoadScene("Ending");
     }
     // Start is called before the first frame update
     void Start()

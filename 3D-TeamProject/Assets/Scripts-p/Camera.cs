@@ -20,12 +20,10 @@ public class Camera : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float currYAngle = Mathf.Lerp(tr.eulerAngles.y, targetTr.eulerAngles.y, smoothRotate*Time.deltaTime);
+        tr.position = Vector3.Lerp(tr.position,
+                                   targetTr.position - (targetTr.forward * dist) + (Vector3.up * height),
+                                   Time.deltaTime * dampTrace);
 
-        Quaternion rot = Quaternion.Euler(0, currYAngle, 0);
-
-        tr.position = targetTr.position - (rot *Vector3.forward*dist) + (Vector3.up*height); 
-
-        tr.LookAt(targetTr);
+        tr.LookAt(targetTr.position);
     }
 }
