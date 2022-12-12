@@ -8,7 +8,6 @@ public class SetActive : MonoBehaviour
 {
     protected bool state;
     public GameObject Target;
-    bool ConsoleONOFF = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,17 +22,11 @@ public class SetActive : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.F))
             {
-                Debug.Log("키 입력 받았음");
 
                 if (state == false)
                 {
                     Target.SetActive(true);
-                    Debug.Log("생겨나");
                     state = true;
-                    if(Input.GetMouseButtonDown(1)) 
-                    {
-                        ConsoleONOFF=true;
-                    }
                 }
             }
 
@@ -41,14 +34,13 @@ public class SetActive : MonoBehaviour
         if (UIMgr.AttatchGameBtOn == true)
         {
             Target.SetActive(false);
-            Debug.Log("사라져");
+
             state = false;
             UIMgr.AttatchGameBtOn = false;
         }
         if(GeneratorCtrl.AttatchGameOpen == false)
         {
             Target.SetActive(false);
-            Debug.Log("사라져");
             state = false;
         }
     }

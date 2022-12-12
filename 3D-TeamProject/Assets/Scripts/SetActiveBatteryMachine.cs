@@ -18,13 +18,15 @@ public class SetActiveBatteryMachine : MonoBehaviour
     {
         if (BatteryMachine.CameToBatteryMachine == true)
         {
-
-            if (Input.GetKeyDown(KeyCode.F))
+            if (BatteryCount== 0)
             {
-                BatteryCount++;
-                Debug.Log("배터리를" + BatteryCount + "개 넣어 주었습니다!");
-                BatteryTarget.SetActive(true);
-                BatteryMachine.CameToBatteryMachine = false;
+                if (Input.GetKeyDown(KeyCode.F))
+                {
+                    BatteryCount++;
+                    Debug.Log("배터리를" + BatteryCount + "개 넣어 주었습니다!");
+                    BatteryTarget.SetActive(true);
+                    BatteryMachine.CameToBatteryMachine = false;
+                }
             }
 
         }

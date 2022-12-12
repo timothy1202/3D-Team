@@ -23,7 +23,6 @@ public class GeneratorCtrl : MonoBehaviour
 
         if (coll.collider.CompareTag("Player"))
         {
-            Debug.Log("Play");
             AttatchGameOpen = true;
         }
     }

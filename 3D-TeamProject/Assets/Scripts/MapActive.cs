@@ -21,11 +21,9 @@ public class MapActive : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.F))
             {
-                Debug.Log("키 입력 받았음");
                 if (Mapstate == false)
                 {
                     MapTarget.SetActive(true);
-                    Debug.Log("맵 생겨나");
                     Mapstate = true;
                 }
             }
@@ -33,7 +31,6 @@ public class MapActive : MonoBehaviour
         if (UIMgrMap.MapBtOn == true)
         {
             MapTarget.SetActive(false);
-            Debug.Log("맵 사라져");
             Mapstate = false;
             UIMgrMap.MapBtOn = false;
             //MapCtrl.MapOpen = false;
@@ -41,7 +38,6 @@ public class MapActive : MonoBehaviour
         if(MapCtrl.MapOpen == false)
         {
             MapTarget.SetActive(false);
-            Debug.Log("맵 사라져");
             Mapstate = false;
         }
     }
