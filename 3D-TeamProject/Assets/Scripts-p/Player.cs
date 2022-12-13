@@ -56,8 +56,8 @@ public class Player : MonoBehaviour
 {
     [SerializeField]
     private Slider hpbar;
-    static public float maxhp = 100;
-    static  public float curhp = 100;
+    static public float maxhp = 150;
+    static  public float curhp = 150;
 
     private Animator animator;
     private CharacterController controller;
