@@ -184,7 +184,7 @@ public class Player : MonoBehaviour
 
         if (coll.gameObject.tag == "MONSTER")
         {
-            curhp -= 10;
+            curhp -= 25;
             // Debug.Log("Ãæµ¹");
             Debug.Log(curhp);
         }
