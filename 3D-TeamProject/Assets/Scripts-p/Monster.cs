@@ -13,12 +13,26 @@ public class Monster : MonoBehaviour
     private Transform playerTr;
     private UnityEngine.AI.NavMeshAgent nvAgent;
     private Animator animator;
-
+    public bool Attack=false;
 
     public float traceDist = 10.0f;
     public float attackDist = 2.0f;
     private bool isDie = false;
 
+    private IEnumerator DelayedAction()
+    {
+        while (Attack == true)
+        {
+            yield return new WaitForSeconds(2.0f);
+            Player.curhp = Player.curhp - 10;
+
+            if (Player.curhp <= 0)
+            {
+                Astronaut.PlayerDie();
+            }
+        }
+
+    }
     // Start is called before the first frame update
     void Start()
     {
@@ -82,7 +96,28 @@ public class Monster : MonoBehaviour
     void Update()
     {
     }
+    private void OnCollisionEnter(Collision coll)
+    {
 
+        if (coll.collider.CompareTag("Player"))
+        {
+            Attack = true;
+            StopCoroutine(DelayedAction());
+            StartCoroutine(DelayedAction());
+            //Player.curhp -= 25;
+            //Debug.Log("Ãæµ¹");
+            ////Debug.Log(curhp);
+
+        }
+    }
+    private void OnCollisionExit(Collision coll)
+    {
+        if (coll.collider.CompareTag("Player"))
+        {
+            Attack = false;
+            StopCoroutine(DelayedAction());
+        }
+    }
 
 
 }

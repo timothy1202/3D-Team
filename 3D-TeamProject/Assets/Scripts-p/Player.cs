@@ -179,17 +179,18 @@ public class Player : MonoBehaviour
 
 
     }
-    void OnTriggerEnter(Collider coll)
-    {
+    //void OnTriggerEnter(Collider coll)
+    //{
 
-        if (coll.gameObject.tag == "MONSTER")
-        {
-            curhp -= 25;
-            // Debug.Log("충돌");
-            Debug.Log(curhp);
-        }
+    //    if (coll.gameObject.tag == "MONSTER")
+    //    {
+    //        curhp -= 25;
+    //        Debug.Log("충돌");
+    //        //Debug.Log(curhp);
+            
+    //    }
 
-    }
+    //}
 
     //private void HandleHP()
     // {
